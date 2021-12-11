@@ -9,7 +9,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { useSidebarDrawer } from "../../contexts/SidebarDrawerContext";
-import { SidebarNav } from "./SideaarNav";
+import { SidebarNav } from "./SidebarNav";
 
 export function Sidebar() {
   const {isOpen, onClose} = useSidebarDrawer();
